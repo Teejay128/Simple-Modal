@@ -5,26 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Modal</title>
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <button class="openBtn">Click Here</button>
+    <div class="container">
+        <h2>Generate random details about yourself</h2>
+
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+
+            <label for="occupation">Occupation :</label>
+            <input type="text" id="occupation">
+
+            <label for="favColor">Favourite color :</label>
+            <input type="color" id="favColor">
+
+            <input type="submit" id="submit" value="submit">
+        </form>
+    </div>
 
     <div class="modal">
         <div class="modal-content">
             <div class="modal-header">
-                <span class="closeBtn">&times;</span>
-                <h2>Hello... I am a modal</h2>
+                <h2>Dear Mr Pupuola,</h2>
+                <span id="closeBtn">&times;</span>
             </div>
             <div class="modal-body">
-                <p>Hello... I am a modal</p>
-                <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, aliquam fugit nostrum iure voluptates aspernatur illo deleniti, aliquid quaerat alias optio, tempora excepturi vitae praesentium rerum ex ducimus facere nesciunt!
-                </p>
+                <p>It's been 10 years since we last crossed paths, and I am proud to let you know that I am now a certified agbero</p>
+                <p>What a journey it was, starting from my first street harassment to now that I lead my own cult</p>
+                <p>There were a lot of obstacles like rival cults, police officers and other touts, but I thank Satuala my goddess for showing me the least troublesome routes to pass, and for following me to confront other cults</p>
+                <p>I would like to tell you more about this journey but, as you are past me you are still going to meet it along the way</p>
             </div>
             <div class="modal-footer">
-                <h3>Modal footer</h3>
+                <p>All i can tell you is that you should distance yourseelf from anty girl named Shade</p>
+
+                <h3>Yours Sincerely</h3>
             </div>
         </div>
     </div>

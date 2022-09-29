@@ -2,10 +2,10 @@
 let modal = document.querySelector('.modal')
 
 // Get open modal button
-let openBtn = document.querySelector('.openBtn')
+let openBtn = document.querySelector('#submit')
 
 // Get close modal button
-let closeBtn = document.querySelector('.closeBtn')
+let closeBtn = document.querySelector('#closeBtn')
 
 
 // Listen for open click

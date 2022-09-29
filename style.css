@@ -1,75 +1,46 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.6;
+.container{
+    color: #128;
 }
 
-.openBtn{
-    background: #124;
-    padding: 1em 2em;
-    color: #fff;
-    border-radius: 1rem;
+form{
+    display: flex;
+    flex-direction: column;
 }
 
-.openBtn:hover{
-    background: #124a;
+label{
+    font-size: larger;
 }
 
-.modal{
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    overflow: auto;
-    background: #0007;
+label::before{
+    content: "";
+}
 
+#name{
+    padding: 0.5rem 2rem;
+    border: 2px solid #128;
+    margin: 1rem;
+}
+
+#occupation{
+    padding: 0.5rem 1rem;
+    border: 2px solid #128;
+    margin: 1rem;
+}
+
+#favColor{
+    padding: 0.2rem;
+    border: 2px solid #128;
+    margin: 1rem 2rem;
+}
+
+#submit{
+    padding: 0.2rem;
+    border: 2px solid #128;
+    margin: 1rem 10rem;
 }
 
 .modal-content{
-    background-color: #fff;
-    margin: 20% auto;
-    width: 75%;
-    box-shadow: 10px 10px 10px 0 #115a, 0 5px 5px 0 #111;
-
-    animation-name:modalopen;
-    animation-duration: 1.5s;
-}
-
-.modal-header{
-    background: #124;
-    padding: 10px 15px;
+    background-color: #128;
     color: #fff;
-}
-
-.modal-body{
-    padding: 10px 20px;
-}
-
-.modal-footer{
-    background: #124;
-    padding: 3px;
-    color: #fff;
-    text-align: center;
-}
-
-.closeBtn{
-    color: #fff;
-    float: right;
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.closeBtn:hover, .closeBtn:focus{
-    color: #f12;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-@keyframes modalopen{
-    from{opacity: 0}
-    to{opacity: 1}
+    height: 90vh;
 }
