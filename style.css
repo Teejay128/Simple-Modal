@@ -1,5 +1,5 @@
 .container{
-    color: #128;
+    color: black;
 }
 
 form{
@@ -17,30 +17,45 @@ label::before{
 
 #name{
     padding: 0.5rem 2rem;
-    border: 2px solid #128;
-    margin: 1rem;
-}
-
-#occupation{
-    padding: 0.5rem 1rem;
-    border: 2px solid #128;
+    border: 2px solid black;
     margin: 1rem;
 }
 
 #favColor{
-    padding: 0.2rem;
-    border: 2px solid #128;
-    margin: 1rem 2rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid black;
+    margin: 1rem;
 }
 
 #submit{
     padding: 0.2rem;
-    border: 2px solid #128;
+    border: 2px solid black;
     margin: 1rem 10rem;
 }
 
 .modal-content{
-    background-color: #128;
-    color: #fff;
-    height: 90vh;
+    background-color: #fff;
+    width: 80%;
+    margin: 50px 10%;
+    height: 80%;
+    border-radius: 20px;
+    font-family: cursive;
+    font-size: medium;
+}
+
+#closeBtn{
+    font-size: xx-large;
+}
+
+#closeBtn:hover{
+    cursor: pointer;
+}
+
+.modal-header{
+    border-bottom: 3px solid white;
+    padding-bottom: 0%;
+}
+
+.modal-footer{
+    border-top: 2px solid #fff;
 }
